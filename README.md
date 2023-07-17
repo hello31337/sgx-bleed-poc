@@ -66,5 +66,5 @@ The BSD license is applied according to the license applied to [the sample codes
 
 
 ## References
-[1]"Leaking Uninitialized Secure Enclave Memory via Structure Padding", Sangho Lee and Taesoo Kim, https://arxiv.org/pdf/1710.09061.pdf
+[1]"Leaking Uninitialized Secure Enclave Memory via Structure Padding", Sangho Lee and Taesoo Kim, https://arxiv.org/pdf/1710.09061.pdf  
 [2]"Uninitialized Memory - SGX 101", retrieved July 17, 2023 from https://sgx101.gitbook.io/sgx101/sgx-security/uninitialized-memory
