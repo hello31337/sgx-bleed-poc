@@ -1,8 +1,10 @@
 # SGX-Bleed Proof-of-Concept codes
 This repository contains PoC code for [SGX-Bleed](https://arxiv.org/pdf/1710.09061.pdf).  
 
-After freeing the buffer that stored the secrets without being flushed, if the structure is placed at that location and initialized by assigning it to a member, the structure padding portion is not initialized.
-Therefore, when the structure is returned from Enclave, the secrets that should have been freed leaks by the amount of the padding size.
+After freeing the buffer that stored the secrets without being flushed, if the structure is placed at that location and initialized by assigning it to a member, the structure padding portion is not initialized.  
+Therefore, when the structure is returned from Enclave, the secrets that should have been freed leaks by the amount of the padding size.  
+  
+The author of this repository is not related to the author of the SGX-Bleed article.  
 
 
 ## Operating environment

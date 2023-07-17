@@ -35,7 +35,7 @@ test_struct_t ecall_bleed()
 	test_struct_t *test_st = (test_struct_t*)test_st_buf;
 	test_st->a = 10;
 	test_st->b = 20;
-	test_st->c= 30;
+	test_st->c = 30;
 
 	return *test_st;
 }
