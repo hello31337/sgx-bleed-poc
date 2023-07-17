@@ -1,0 +1,13 @@
+enclave
+{
+	include "../Enclave/Enclave.hpp"
+
+	trusted
+	{
+		public test_struct_t ecall_bleed();
+	};
+	untrusted
+	{
+		void ocall_debug_print([in, size=sz]uint8_t *buf, size_t sz);
+	};
+};
